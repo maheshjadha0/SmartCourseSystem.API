@@ -41,7 +41,7 @@ namespace SmartCourseSystem.API.Services
                     BCrypt.Net.BCrypt.HashPassword(
                         dto.Password),
 
-                RoleId = 2,
+                RoleId = 1,
                 CreatedAt = DateTime.UtcNow
             };
 
